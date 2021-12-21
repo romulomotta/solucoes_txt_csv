@@ -1,7 +1,6 @@
 const readline  = require('readline');
 const fs        = require('fs')
 const xl        = require('excel4node');
-const xlsx      = require('xlsx');
 const LineReader = require('line-by-line');
 
 const lr = new LineReader('entrada/drive.txt')
@@ -93,10 +92,6 @@ lr.on('line', function (line) {
 
 lr.on('end', function() {
     console.log("Processo encerrado: " + Date());
-    
-    // setTimeout(function () {
-    //     toCsv();
-    // }, 3000);
 })
 
 
@@ -129,12 +124,4 @@ function toExcel(data) {
     }); 
      
     wb.write(path);
-}
-
-function toCsv() {
-    let path = "saida/drive.xlsx";
-    let csvpath = "saida/drive2.csv";
-    const workBook = xlsx.readFile(path);
-    xlsx.writeFile(workBook, csvpath, { bookType: "csv" });
-    console.log('csv criado.')
 }
