@@ -16,3 +16,7 @@ Digitar os seguintes comandos:
 npm init
 node index.js (gera o .xlsx)
 node tocsv.js (gera o .csv)
+
+# Para testar
+Foi adicionado na pasta saida um arquivo grande .txt
+Para testar copie ele para a pasta de entrada e renomeie para "drive.txt"
