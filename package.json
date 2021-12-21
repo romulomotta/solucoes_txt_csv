@@ -1,7 +1,7 @@
 {
   "name": "proj_text2csv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Format txt to Csv",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,15 @@
   "license": "ISC",
   "dependencies": {
     "excel4node": "^1.7.2",
-    "fast-csv": "^4.3.6",
-    "fs": "0.0.1-security",
     "line-by-line": "^0.1.6",
     "xlsx": "^0.17.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romulomotta/txt_csv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romulomotta/txt_csv/issues"
+  },
+  "homepage": "https://github.com/romulomotta/txt_csv#readme"
 }

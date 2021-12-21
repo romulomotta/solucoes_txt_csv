@@ -1,9 +1,7 @@
-const readline  = require('readline');
-const fs        = require('fs')
 const xl        = require('excel4node');
 const LineReader = require('line-by-line');
 
-const lr = new LineReader('entrada/drive.txt')
+const lr = new LineReader('entrada/testdrive.txt')
 
 const wb        = new xl.Workbook();
 const ws        = wb.addWorksheet('Worksheet Name');
@@ -81,9 +79,9 @@ lr.on('line', function (line) {
     setTimeout(function () {
         // 
         lr.resume();
-    }, 100);
+    }, 10);
 
-    if (counter %100 === 0){
+    if (counter %1000 === 0){
         console.log(counter);
     }
     
