@@ -1,4 +1,5 @@
 # txt_csv
+## Esse projetinho básico, foi feita como uma resposta rápida para uma solução de conversão de Arquivos .txt para Excel ##
 Format txt to Csv
 
 # Arquivos .txt devem ficar na pasta de entrada
