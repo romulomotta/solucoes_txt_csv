@@ -1,5 +1,5 @@
 # txt_csv
-## Esse projetinho básico, foi feita como uma resposta rápida para uma solução de conversão de Arquivos .txt para Excel ##
+## Esse projetinho básico, foi um teste rápido para uma solução de conversão de Arquivos .txt para Excel ##
 Format txt to Csv
 
 # Arquivos .txt devem ficar na pasta de entrada
@@ -9,7 +9,6 @@ com o nome: drive.txt (Se já tiver um arquivo, favor sobrepor)
 
 
 # Para rodar: 
-
 Abrir o terminal
 Digitar os seguintes comandos:
 (Necessário ser nessa ordem)
